@@ -393,6 +393,10 @@ footer a {
     color: #fff;
   }
 
+  .tech {
+    flex-direction: column;
+  }
+
   div.card {
     width: 100%;
     margin: 8px auto;
