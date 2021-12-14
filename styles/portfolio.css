@@ -203,7 +203,7 @@ div.card.show div.flap2 {
 .order-img {
   width: 100%;
   height: 300px;
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-image: url("../images/orderspace.png");
 }
@@ -219,7 +219,7 @@ div.card.show div.flap2 {
 .hib-img {
   width: 100%;
   height: 300px;
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-image: url("../images/hib.png");
 }
@@ -227,7 +227,7 @@ div.card.show div.flap2 {
 .in-img {
   width: 100%;
   height: 300px;
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-image: url("../images/in-and-out.png");
 }
@@ -235,7 +235,7 @@ div.card.show div.flap2 {
 .jew-img {
   width: 100%;
   height: 300px;
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-image: url("../images/jew.png");
 }
@@ -243,7 +243,7 @@ div.card.show div.flap2 {
 .kitchen-img {
   width: 100%;
   height: 300px;
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-image: url("../images/kitchen.png");
 }
@@ -251,7 +251,7 @@ div.card.show div.flap2 {
 .leonton-img {
   width: 100%;
   height: 300px;
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-image: url("../images/leonton.png");
 }
@@ -259,7 +259,7 @@ div.card.show div.flap2 {
 .skypu3-3d_space-img {
   width: 100%;
   height: 300px;
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-image: url("../images/skypu3-3d_space.png");
 }
