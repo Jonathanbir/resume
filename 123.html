@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .wpcf7-response-output {
+      display: none;
+    }
+
+    .form-box {
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: 99;
+      margin: auto;
+      width: 500px;
+      height: 400px;
+      border: 1px solid;
+      background: #fff;
+      display: none;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .furniture-title {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .furniture-title h1 {
+      font-weight: 900;
+    }
+
+    .furniture {
+      display: flex;
+      flex-wrap: wrap;
+      width: 1200px;
+      margin: auto;
+    }
+
+    .furniture-item {
+      width: 250px;
+      margin: 15px;
+      padding: 7px;
+      margin-top: 40px;
+    }
+
+    .furniture-item p {
+      font-size: 18px;
+      font-weight: 800;
+    }
+
+    .furniture img {
+      width: 100%;
+    }
+
+    .wpcf7-list-item {
+      display: none;
+    }
+
+    .close-icon {
+      position: absolute;
+      top: -5px;
+      right: 15px;
+      font-size: 30px;
+      cursor: pointer;
+    }
+
+    .choice-box {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .down-load {
+      transform: rotate(90deg);
+    }
+
+    .wpcf7-form {
+      font-size: 18px;
+      font-weight: 800;
+      margin: 100px;
+    }
+
+    .wpcf7-submit {
+      display: flex !important;
+      margin: auto;
+    }
+
+    .site-footer {
+      opacity: 0;
+    }
+
+    .check-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .check-box p {
+      font-size: 13px;
+      margin-bottom: 0;
+    }
+
+    #post-6984 {
+      padding-left: initial;
+    }
+
+    .total-selected {
+      position: fixed;
+      bottom: -60px;
+      background: rgb(241, 240, 240);
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      height: 60px;
+    }
+
+    .total-selected p {
+      margin: 0;
+      margin-left: 10px;
+    }
+
+    .btn-box {
+      display: flex;
+    }
+
+    .clear-all-btn {
+      border: 2px solid;
+      padding: 3px 20px;
+      margin: 0 10px;
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .down-load-btn {
+      border: 1px solid;
+      padding: 3px 20px;
+      margin: 0 10px;
+      font-size: 13px;
+      font-weight: 800;
+      background: #000;
+      color: #fff;
+    }
+
+    input[type="checkbox"] {
+      display: inline-block;
+      background: url("https://cdn-icons.flaticon.com/png/128/2951/premium/2951418.png?token=exp=1640329019~hmac=f46f6218cc5c7f5d353e4f6f20ae766f");
+      background-position: center;
+      background-size: 65%;
+      background-repeat: no-repeat;
+      user-select: none;
+      appearance: initial;
+    }
+
+    input[type="checkbox"]:hover {
+      display: inline-block;
+      background: url("https://cdn-icons-png.flaticon.com/128/6399/6399298.png");
+      background-position: center;
+      background-size: 55%;
+      background-repeat: no-repeat;
+      user-select: none;
+      appearance: initial;
+    }
+
+    input {
+      border: initial;
+    }
+
+    input[type="checkbox"]:checked {
+      background: url("https://cdn-icons.flaticon.com/png/128/4561/premium/4561848.png?token=exp=1640332831~hmac=0dec6a4d9213741c87d112b0c2efb48e");
+      background-position: center;
+      background-size: 65%;
+      background-repeat: no-repeat;
+      user-select: none;
+      appearance: initial;
+    }
+
+    .selected-box {
+      display: flex;
+    }
+
+    .check-icon {
+      width: 20px;
+      height: 20px;
+      background: url("https://cdn-icons.flaticon.com/png/128/4561/premium/4561848.png?token=exp=1640332831~hmac=0dec6a4d9213741c87d112b0c2efb48e");
+      background-position: center;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      user-select: none;
+      appearance: initial;
+    }
+  </style>
+  <body>
+    <div class="furniture-title">
+      <h1>ERGOBOND NeoCon 2021</h1>
+      <p>Select the products you wish to obtain more information</p>
+    </div>
+    <div class="furniture">
+      <div class="furniture-item furniture-item01" role="form">
+        <img
+          src="https://jewshion.wpcomstaging.com/wp-content/uploads/2021/12/2021-12-22-下午11.41.01.png"
+        />
+        <p>ERGOHUB</p>
+        <div class="choice-box">
+          <div class="check-box">
+            <input type="checkbox" name="checkbox[]" value="01" for="01" />
+            <p>Add to selection</p>
+          </div>
+          <div class="down-load down-01" onclick="openIcon()">⇥</div>
+        </div>
+      </div>
+      <div class="furniture-item furniture-item02">
+        <img
+          src="https://jewshion.wpcomstaging.com/wp-content/uploads/2021/12/2021-12-22-下午11.41.27.png"
+        />
+        <p>HICE Chair</p>
+        <div class="choice-box">
+          <div class="check-box">
+            <input type="checkbox" name="checkbox[]" value="02" for="02" />
+            <p>Add to selection</p>
+          </div>
+          <div class="down-load down-02" onclick="openIcon()">⇥</div>
+        </div>
+      </div>
+      <div class="furniture-item furniture-item03">
+        <img
+          src="https://jewshion.wpcomstaging.com/wp-content/uploads/2021/12/2021-12-22-下午11.41.46.png"
+        />
+        <p>FitDesk Pro</p>
+        <div class="choice-box">
+          <div class="check-box">
+            <input type="checkbox" name="checkbox[]" value="03" />
+            <p>Add to selection</p>
+          </div>
+          <div class="down-load down-03" onclick="openIcon()">⇥</div>
+        </div>
+      </div>
+      <div class="furniture-item furniture-item04">
+        <img
+          src="https://jewshion.wpcomstaging.com/wp-content/uploads/2021/12/2021-12-22-下午11.41.54.png"
+        />
+        <p>Original Snap</p>
+        <div class="choice-box">
+          <div class="check-box">
+            <input type="checkbox" name="checkbox[]" value="04" />
+            <p>Add to selection</p>
+          </div>
+          <div class="down-load down-04" onclick="openIcon()">⇥</div>
+        </div>
+      </div>
+      <div class="furniture-item furniture-item05">
+        <img
+          src="https://jewshion.wpcomstaging.com/wp-content/uploads/2021/12/2021-12-22-下午11.42.01.png"
+        />
+        <p>Classic 3 stages</p>
+        <div class="choice-box">
+          <div class="check-box">
+            <input type="checkbox" name="checkbox[]" value="05" />
+            <p>Add to selection</p>
+          </div>
+          <div class="down-load down-05" onclick="openIcon()">⇥</div>
+        </div>
+      </div>
+      <div class="furniture-item furniture-item06">
+        <img
+          src="https://jewshion.wpcomstaging.com/wp-content/uploads/2021/12/2021-12-22-下午11.42.12.png"
+        />
+        <p>TV Cart</p>
+        <div class="choice-box">
+          <div class="check-box">
+            <input type="checkbox" name="checkbox[]" value="06" />
+            <p>Add to selection</p>
+          </div>
+          <div class="down-load down-06" onclick="openIcon()">⇥</div>
+        </div>
+      </div>
+      <div class="furniture-item furniture-item07">
+        <img
+          src="https://jewshion.wpcomstaging.com/wp-content/uploads/2021/12/2021-12-22-下午11.42.31.png"
+        />
+        <p>Compact</p>
+        <div class="choice-box">
+          <div class="check-box">
+            <input type="checkbox" name="checkbox[]" value="07" />
+            <p>Add to selection</p>
+          </div>
+          <div class="down-load down-07" onclick="openIcon()">⇥</div>
+        </div>
+      </div>
+      <div class="furniture-item furniture-item08">
+        <img
+          src="https://jewshion.wpcomstaging.com/wp-content/uploads/2021/12/2021-12-22-下午11.42.36.png"
+        />
+        <p>Fence</p>
+        <div class="choice-box">
+          <div class="check-box">
+            <input type="checkbox" name="checkbox[]" value="08" />
+            <p>Add to selection</p>
+          </div>
+          <div class="down-load down-08" onclick="openIcon()">⇥</div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript">
+    $("input[value=01]").click(function () {
+      if ($("input[value=01]")[1].getAttribute("checked") == "checked") {
+        $("input[value=01]").attr("checked", false);
+        $("input[value=01]").prop("checked", false);
+        $(".furniture-item01").css("border", "initial");
+      } else {
+        $("input[value=01]").attr("checked", true);
+        $("input[value=01]").prop("checked", true);
+        $(".furniture-item01").css("border", "1px solid");
+      }
+    });
+    $("input[value=02]").click(function () {
+      if ($("input[value=02]")[1].getAttribute("checked") == "checked") {
+        $("input[value=02]").attr("checked", false);
+        $("input[value=02]").prop("checked", false);
+        $(".furniture-item02").css("border", "initial");
+      } else {
+        $("input[value=02]").attr("checked", true);
+        $("input[value=02]").prop("checked", true);
+        $(".furniture-item02").css("border", "1px solid");
+      }
+    });
+    $("input[value=03]").click(function () {
+      if ($("input[value=03]")[1].getAttribute("checked") == "checked") {
+        $("input[value=03]").attr("checked", false);
+        $("input[value=03]").prop("checked", false);
+        $(".furniture-item03").css("border", "initial");
+      } else {
+        $("input[value=03]").attr("checked", true);
+        $("input[value=03]").prop("checked", true);
+        $(".furniture-item03").css("border", "1px solid");
+      }
+    });
+    $("input[value=04]").click(function () {
+      if ($("input[value=04]")[1].getAttribute("checked") == "checked") {
+        $("input[value=04]").attr("checked", false);
+        $("input[value=04]").prop("checked", false);
+        $(".furniture-item04").css("border", "initial");
+      } else {
+        $("input[value=04]").attr("checked", true);
+        $("input[value=04]").prop("checked", true);
+        $(".furniture-item04").css("border", "1px solid");
+      }
+    });
+    $("input[value=05]").click(function () {
+      if ($("input[value=05]")[1].getAttribute("checked") == "checked") {
+        $("input[value=05]").attr("checked", false);
+        $("input[value=05]").prop("checked", false);
+        $(".furniture-item05").css("border", "initial");
+      } else {
+        $("input[value=05]").attr("checked", true);
+        $("input[value=05]").prop("checked", true);
+        $(".furniture-item05").css("border", "1px solid");
+      }
+    });
+    $("input[value=06]").click(function () {
+      if ($("input[value=06]")[1].getAttribute("checked") == "checked") {
+        $("input[value=06]").attr("checked", false);
+        $("input[value=06]").prop("checked", false);
+        $(".furniture-item06").css("border", "initial");
+      } else {
+        $("input[value=06]").attr("checked", true);
+        $("input[value=06]").prop("checked", true);
+        $(".furniture-item06").css("border", "1px solid");
+      }
+    });
+    $("input[value=07]").click(function () {
+      if ($("input[value=07]")[1].getAttribute("checked") == "checked") {
+        $("input[value=07]").attr("checked", false);
+        $("input[value=07]").prop("checked", false);
+        $(".furniture-item07").css("border", "initial");
+      } else {
+        $("input[value=07]").attr("checked", true);
+        $("input[value=07]").prop("checked", true);
+        $(".furniture-item07").css("border", "1px solid");
+      }
+    });
+    $("input[value=08]").click(function () {
+      if ($("input[value=08]")[1].getAttribute("checked") == "checked") {
+        $("input[value=08]").attr("checked", false);
+        $("input[value=08]").prop("checked", false);
+        $(".furniture-item08").css("border", "initial");
+      } else {
+        $("input[value=08]").attr("checked", true);
+        $("input[value=08]").prop("checked", true);
+        $(".furniture-item08").css("border", "1px solid");
+      }
+    });
+  </script>
+  <script type="text/javascript">
+    let total = [];
+    let number = [];
+
+    var totalSelected = document.createElement("div");
+    totalSelected.className = "total-selected";
+    document.body.appendChild(totalSelected);
+
+    var selectedBox = document.createElement("div");
+    selectedBox.className = "selected-box";
+    document
+      .getElementsByClassName("total-selected")[0]
+      .appendChild(selectedBox);
+
+    var checkIcon = document.createElement("div");
+    checkIcon.className = "check-icon";
+    document.getElementsByClassName("selected-box")[0].appendChild(checkIcon);
+
+    var p = document.createElement("p");
+    document.getElementsByClassName("selected-box")[0].appendChild(p);
+
+    var btnBox = document.createElement("div");
+    btnBox.className = "btn-box";
+    document.getElementsByClassName("total-selected")[0].appendChild(btnBox);
+
+    var clearAll = document.createElement("div");
+    clearAll.className = "clear-all-btn";
+    clearAll.textContent = "CLEAR ALL";
+    document.getElementsByClassName("btn-box")[0].appendChild(clearAll);
+
+    clearAll.onclick = clearAllBtn;
+
+    function clearAllBtn() {
+      document
+        .getElementsByClassName("total-selected")[0]
+        .setAttribute("style", "bottom:-60px");
+
+      $(".furniture-item").css("border", "initial");
+      $("input[value=01]").prop("checked", false);
+      $("input[value=01]").attr("checked", false);
+      $("input[value=02]").prop("checked", false);
+      $("input[value=02]").attr("checked", false);
+      $("input[value=03]").prop("checked", false);
+      $("input[value=03]").attr("checked", false);
+      $("input[value=04]").prop("checked", false);
+      $("input[value=04]").attr("checked", false);
+      $("input[value=05]").prop("checked", false);
+      $("input[value=05]").attr("checked", false);
+      $("input[value=06]").prop("checked", false);
+      $("input[value=06]").attr("checked", false);
+      $("input[value=07]").prop("checked", false);
+      $("input[value=07]").attr("checked", false);
+      $("input[value=08]").prop("checked", false);
+      $("input[value=08]").attr("checked", false);
+    }
+
+    var downLoad = document.createElement("div");
+    downLoad.className = "down-load-btn";
+    downLoad.textContent = "DOWN LOAD";
+    document.getElementsByClassName("btn-box")[0].appendChild(downLoad);
+
+    downLoad.onclick = openPanel;
+
+    function openPanel() {
+      document
+        .getElementsByClassName("wp-block-column form-box")[0]
+        .setAttribute("style", "display:flex");
+    }
+
+    $("input[type=checkbox]").click(function () {
+      for (let i = 0; i < 8; i++) {
+        total.push($("input[type=checkbox]")[i].getAttribute("checked"));
+        number = total.filter(function (number) {
+          return number == "checked";
+        });
+      }
+
+      document
+        .getElementsByClassName("total-selected")[0]
+        .setAttribute("style", "bottom:0");
+
+      const myList =
+        document.getElementsByClassName("total-selected")[0].children[0];
+      const oldNumber =
+        document.getElementsByClassName("total-selected")[0].children[0]
+          .children[1];
+      const newListItem = document.createElement("p");
+      newListItem.textContent = number.length + "  Item Selected";
+
+      myList.replaceChild(newListItem, oldNumber);
+
+      total = [];
+    });
+
+    $(".down-01").click(function () {
+      $("input[value=01]").prop("checked", true);
+      $("input[value=01]").attr("checked", true);
+      $(".furniture-item01").css("border", "1px solid");
+    });
+    $(".down-02").click(function () {
+      $("input[value=02]").prop("checked", true);
+      $("input[value=02]").attr("checked", true);
+      $(".furniture-item02").css("border", "1px solid");
+    });
+
+    $(".down-03").click(function () {
+      $("input[value=03]").prop("checked", true);
+      $("input[value=03]").attr("checked", true);
+      $(".furniture-item03").css("border", "1px solid");
+    });
+    $(".down-04").click(function () {
+      $("input[value=04]").prop("checked", true);
+      $("input[value=04]").attr("checked", true);
+      $(".furniture-item04").css("border", "1px solid");
+    });
+    $(".down-05").click(function () {
+      $("input[value=05]").prop("checked", true);
+      $("input[value=05]").attr("checked", true);
+      $(".furniture-item05").css("border", "1px solid");
+    });
+    $(".down-06").click(function () {
+      $("input[value=06]").prop("checked", true);
+      $("input[value=06]").attr("checked", true);
+      $(".furniture-item06").css("border", "1px solid");
+    });
+    $(".down-07").click(function () {
+      $("input[value=07]").prop("checked", true);
+      $("input[value=07]").attr("checked", true);
+      $(".furniture-item07").css("border", "1px solid");
+    });
+    $(".down-08").click(function () {
+      $("input[value=08]").prop("checked", true);
+      $("input[value=08]").attr("checked", true);
+      $(".furniture-item08").css("border", "1px solid");
+    });
+  </script>
+  <script type="text/javascript">
+    function closeIcon() {
+      document
+        .getElementsByClassName("wp-block-column form-box")[0]
+        .setAttribute("style", "display:none");
+    }
+
+    function openIcon() {
+      document
+        .getElementsByClassName("wp-block-column form-box")[0]
+        .setAttribute("style", "display:flex");
+    }
+  </script>
+</html>

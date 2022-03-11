@@ -46,6 +46,13 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   text-rendering: optimizeLegibility;
 }
+
+h1 {
+  font-size: 30px;
+  font-weight: 800;
+  padding: 50px;
+}
+
 .btn {
   background: #0096a0;
   border-radius: 4px;
@@ -214,6 +221,14 @@ div.card.show div.flap2 {
   background-size: 100%;
   background-repeat: no-repeat;
   background-image: url("../images/snack.png");
+}
+
+.comfy-img {
+  width: 100%;
+  height: 300px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url("../images/comfy.png");
 }
 
 .hib-img {

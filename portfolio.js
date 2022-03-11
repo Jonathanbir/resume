@@ -5,8 +5,14 @@ $(document).ready(function () {
     console.log("btn");
     clickBtn = true;
   });
+  $(".order-react").click(function (e) {
+    window.open("https://practical-benz-e2a2b7.netlify.app/");
+  });
   $(".order").click(function (e) {
     window.open("https://jonathanbir.github.io/orderspace_demo/");
+  });
+  $(".comfy").click(function (e) {
+    window.open("https://testing-shop.netlify.app/");
   });
   $(".snack").click(function (e) {
     window.open("https://jonathanbir.github.io/snack/index.html");
@@ -24,7 +30,8 @@ $(document).ready(function () {
   });
 
   $(".kitchen").click(function (e) {
-    window.open("https://jonathanbir.github.io/infinity-kitchen/index.html");
+    window.open("https://www.infinitykitchen.com/");
+    //window.open("https://jonathanbir.github.io/infinity-kitchen/index.html");
   });
 
   $(".mir").click(function (e) {
