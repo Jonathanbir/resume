@@ -14,6 +14,9 @@ $(document).ready(function () {
   $(".comfy").click(function (e) {
     window.open("https://testing-shop.netlify.app/");
   });
+  $(".netflix").click(function (e) {
+    window.open("https://festive-bell-b49145.netlify.app/");
+  });
   $(".snack").click(function (e) {
     window.open("https://jonathanbir.github.io/snack/index.html");
   });
