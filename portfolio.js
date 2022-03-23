@@ -17,6 +17,9 @@ $(document).ready(function () {
   $(".netflix").click(function (e) {
     window.open("https://festive-bell-b49145.netlify.app/");
   });
+  $(".todolist").click(function (e) {
+    window.open("https://sparkling-heliotrope-900765.netlify.app/");
+  });
   $(".snack").click(function (e) {
     window.open("https://jonathanbir.github.io/snack/index.html");
   });
