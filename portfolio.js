@@ -24,9 +24,11 @@ $(document).ready(function () {
     window.open("https://jonathanbir.github.io/snack/index.html");
   });
   $(".hib").click(function (e) {
-    window.open("https://hib.25demo.com/");
+    window.open("https://www.hib.com.tw/");
   });
-
+  $(".madness").click(function (e) {
+    window.open("https://melodious-cuchufli-2395bb.netlify.app/");
+  });
   $(".in-and-out").click(function (e) {
     window.open("https://jonathanbir.github.io/in-and-out-webside/");
   });
