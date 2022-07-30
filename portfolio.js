@@ -27,7 +27,7 @@ $(document).ready(function () {
     window.open("https://www.hib.com.tw/");
   });
   $(".madness").click(function (e) {
-    window.open("https://melodious-cuchufli-2395bb.netlify.app/");
+    window.open("https://luxury-valkyrie-d33462.netlify.app/");
   });
   $(".in-and-out").click(function (e) {
     window.open("https://jonathanbir.github.io/in-and-out-webside/");
