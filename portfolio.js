@@ -26,8 +26,9 @@ $(document).ready(function () {
   $(".hib").click(function (e) {
     window.open("https://www.hib.com.tw/");
   });
-  $(".madness").click(function (e) {
-    window.open("https://luxury-valkyrie-d33462.netlify.app/");
+  $(".adventure").click(function (e) {
+    window.open("https://sweet-cranachan-4a3815.netlify.app/");
+    // window.open("https://luxury-valkyrie-d33462.netlify.app/");
   });
   $(".in-and-out").click(function (e) {
     window.open("https://jonathanbir.github.io/in-and-out-webside/");
