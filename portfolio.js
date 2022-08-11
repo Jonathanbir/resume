@@ -27,7 +27,7 @@ $(document).ready(function () {
     window.open("https://www.hib.com.tw/");
   });
   $(".adventure").click(function (e) {
-    window.open("https://sweet-cranachan-4a3815.netlify.app/");
+    window.open("https://monumental-phoenix-415f88.netlify.app/");
     // window.open("https://luxury-valkyrie-d33462.netlify.app/");
   });
   $(".in-and-out").click(function (e) {
