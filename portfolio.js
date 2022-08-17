@@ -31,7 +31,7 @@ $(document).ready(function () {
     // window.open("https://luxury-valkyrie-d33462.netlify.app/");
   });
   $(".esomusic").click(function (e) {
-    window.open("https://friendly-shortbread-e35a37.netlify.app/");
+    window.open("https://famous-cobbler-04b244.netlify.app/");
   });
   $(".in-and-out").click(function (e) {
     window.open("https://jonathanbir.github.io/in-and-out-webside/");
