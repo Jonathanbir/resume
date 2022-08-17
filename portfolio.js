@@ -30,6 +30,9 @@ $(document).ready(function () {
     window.open("https://monumental-phoenix-415f88.netlify.app/");
     // window.open("https://luxury-valkyrie-d33462.netlify.app/");
   });
+  $(".esomusic").click(function (e) {
+    window.open("https://incandescent-sopapillas-6c7744.netlify.app/");
+  });
   $(".in-and-out").click(function (e) {
     window.open("https://jonathanbir.github.io/in-and-out-webside/");
   });
