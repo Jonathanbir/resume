@@ -5,34 +5,48 @@ $(document).ready(function () {
     console.log("btn");
     clickBtn = true;
   });
+
   $(".order-react").click(function (e) {
     window.open("https://practical-benz-e2a2b7.netlify.app/");
   });
+
   $(".order").click(function (e) {
     window.open("https://jonathanbir.github.io/orderspace_demo/");
   });
+
   $(".comfy").click(function (e) {
     window.open("https://testing-shop.netlify.app/");
   });
+
   $(".netflix").click(function (e) {
     window.open("https://festive-bell-b49145.netlify.app/");
   });
+
   $(".todolist").click(function (e) {
     window.open("https://sparkling-heliotrope-900765.netlify.app/");
   });
+
   $(".snack").click(function (e) {
     window.open("https://jonathanbir.github.io/snack/index.html");
   });
+
   $(".hib").click(function (e) {
     window.open("https://www.hib.com.tw/");
   });
+
   $(".adventure").click(function (e) {
     window.open("https://monumental-phoenix-415f88.netlify.app/");
     // window.open("https://luxury-valkyrie-d33462.netlify.app/");
   });
+
   $(".esomusic").click(function (e) {
     window.open("https://famous-cobbler-04b244.netlify.app/");
   });
+
+  $(".deliveroo-app").click(function (e) {
+    window.open("https://willowy-dasik-238d60.netlify.app/");
+  });
+
   $(".in-and-out").click(function (e) {
     window.open("https://jonathanbir.github.io/in-and-out-webside/");
   });
