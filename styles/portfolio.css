@@ -260,6 +260,7 @@ div.card.show div.flap2 {
   height: 300px;
   background-size: 30%;
   background-position-x: 50%;
+  background-repeat: no-repeat;
   background-image: url("../images/deliveroo-app.png");
 }
 
