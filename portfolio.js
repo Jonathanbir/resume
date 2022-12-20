@@ -6,6 +6,10 @@ $(document).ready(function () {
     clickBtn = true;
   });
 
+  $(".lebledor").click(function (e) {
+    window.open("https://willowy-dasik-238d60.netlify.app/");
+  });
+
   $(".order-react").click(function (e) {
     window.open("https://practical-benz-e2a2b7.netlify.app/");
   });

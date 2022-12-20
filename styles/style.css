@@ -11,7 +11,7 @@ body {
 }
 
 .background {
-  position: absolute;
+  position: fixed;
   top: 110px;
   right: 0;
   z-index: -1;
@@ -124,15 +124,14 @@ main section.right {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 600px;
   flex: 1 1 600px;
-  position: relative;
 }
 
 main section.right img {
   border-radius: 50%;
   width: 20vw;
   height: 20vw;
-  position: absolute;
-  top: 40vh;
+  position: fixed;
+  top: 60vh;
   right: 5vw;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
