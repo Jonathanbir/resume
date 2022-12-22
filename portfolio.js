@@ -44,7 +44,7 @@ $(document).ready(function () {
   });
 
   $(".esomusic").click(function (e) {
-    window.open("https://famous-cobbler-04b244.netlify.app/");
+    window.open("https://dulcet-stroopwafel-8c19b9.netlify.app/");
   });
 
   $(".deliveroo-app").click(function (e) {
