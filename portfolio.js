@@ -7,7 +7,7 @@ $(document).ready(function () {
   });
 
   $(".chocolate").click(function (e) {
-    window.open("https://peppy-kitsune-3ce4ff.netlify.app/");
+    window.open("https://cute-kheer-344fb2.netlify.app/");
   });
 
   $(".lebledor").click(function (e) {
