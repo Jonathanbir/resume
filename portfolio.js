@@ -7,7 +7,7 @@ $(document).ready(function () {
   });
 
   $(".chocolate").click(function (e) {
-    window.open("https://gilded-biscuit-1b860d.netlify.app/");
+    window.open("https://melodic-muffin-e1efeb.netlify.app/");
   });
 
   $(".lebledor").click(function (e) {
