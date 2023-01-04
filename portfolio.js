@@ -7,7 +7,7 @@ $(document).ready(function () {
   });
 
   $(".chocolate").click(function (e) {
-    window.open("https://cute-kheer-344fb2.netlify.app/");
+    window.open("https://endearing-sfogliatella-b538dd.netlify.app/about");
   });
 
   $(".lebledor").click(function (e) {
