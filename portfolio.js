@@ -7,7 +7,7 @@ $(document).ready(function () {
   });
 
   $(".chocolate").click(function (e) {
-    window.open("https://melodic-muffin-e1efeb.netlify.app/");
+    window.open("https://peppy-kitsune-3ce4ff.netlify.app/");
   });
 
   $(".lebledor").click(function (e) {
