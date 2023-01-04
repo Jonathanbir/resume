@@ -6,6 +6,10 @@ $(document).ready(function () {
     clickBtn = true;
   });
 
+  $(".chocolate").click(function (e) {
+    window.open("https://gilded-biscuit-1b860d.netlify.app/");
+  });
+
   $(".lebledor").click(function (e) {
     window.open("https://willowy-dasik-238d60.netlify.app/");
   });
