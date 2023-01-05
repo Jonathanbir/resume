@@ -7,7 +7,7 @@ $(document).ready(function () {
   });
 
   $(".chocolate").click(function (e) {
-    window.open("https://endearing-sfogliatella-b538dd.netlify.app/about");
+    window.open("https://endearing-sfogliatella-b538dd.netlify.app/");
   });
 
   $(".lebledor").click(function (e) {
