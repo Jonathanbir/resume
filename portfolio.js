@@ -7,7 +7,7 @@ $(document).ready(function () {
   });
 
   $(".chocolate").click(function (e) {
-    window.open("https://gleaming-jelly-14b205.netlify.app/");
+    window.open("https://unrivaled-chimera-17ec8a.netlify.app/");
   });
 
   $(".lebledor").click(function (e) {
