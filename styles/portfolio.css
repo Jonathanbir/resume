@@ -330,6 +330,14 @@ div.card.show div.flap2 {
   background-image: url("../images/leonton.png");
 }
 
+.workflow-img {
+  width: 100%;
+  height: 300px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url("../images/workflow.jpg");
+}
+
 .skypu3-3d_space-img {
   width: 100%;
   height: 300px;
