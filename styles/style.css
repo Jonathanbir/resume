@@ -8,6 +8,7 @@
 
 body {
   position: relative;
+  background: linear-gradient(135deg, rgb(87, 87, 88), rgb(2, 2, 2));
 }
 
 .background {
@@ -94,13 +95,16 @@ header nav ul li:hover > a {
 }
 
 main {
-  position: relative;
-  top: 110px;
+  margin-top: 110px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+}
+
+h1 {
+  color: #fff;
 }
 
 main section.left {
@@ -157,6 +161,10 @@ main section.table table tr {
 
 main section.table table tr td {
   padding: 1rem;
+}
+
+td {
+  color: #fff;
 }
 
 main section.picture {
