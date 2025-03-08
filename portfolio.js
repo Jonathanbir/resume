@@ -51,6 +51,10 @@ $(document).ready(function () {
     window.open("https://dulcet-stroopwafel-8c19b9.netlify.app/");
   });
 
+  $(".workflow").click(function (e) {
+    window.open("https://workflow-demo-mu.vercel.app/");
+  });
+
   $(".deliveroo-app").click(function (e) {
     window.open("https://willowy-dasik-238d60.netlify.app/");
   });
