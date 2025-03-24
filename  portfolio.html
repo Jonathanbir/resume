@@ -17,18 +17,37 @@
     />
     <link rel="stylesheet" href="./styles/portfolio.css" />
     <link rel="stylesheet" href="./styles/style.css" />
-    <script src="./jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+      function openMenuBar() {
+        $(".nav-list").toggleClass("open");
+        $(".menu-bar").toggleClass("open");
+        $(".line1").toggleClass("open");
+        $(".line2").toggleClass("open");
+        $(".line3").toggleClass("open");
+      }
+    </script>
   </head>
   <body>
-    <!--header and navbar-->
-    <!-- <header>
-      <div class="hamburger-container">
-        <a href="#" class="logo-box"></a>
-        <a href="#" class="hamburger">
-          <span></span>
-        </a>
+    <header>
+      <div class="nav-bar">
+        <div class="nav-list">
+          <a class="nav-btn" href="./index.html">履歷</a>
+          <a class="nav-btn fill" href="./introduction.html">詳細介紹</a>
+          <a
+            class="nav-btn fill"
+            style="background-color: #fff; color: #181818; font-weight: 900"
+            href="#"
+            >作品集</a
+          >
+        </div>
+        <div class="menu-bar" onclick="openMenuBar()">
+          <div class="line line1"></div>
+          <div class="line line2"></div>
+          <div class="line line3"></div>
+        </div>
       </div>
-    </header> -->
+    </header>
     <main>
       <section class="portfolio">
         <div class="border"></div>

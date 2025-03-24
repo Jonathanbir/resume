@@ -6,7 +6,36 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script>
+    function openMenuBar() {
+      $(".nav-list").toggleClass("open");
+      $(".menu-bar").toggleClass("open");
+      $(".line1").toggleClass("open");
+      $(".line2").toggleClass("open");
+      $(".line3").toggleClass("open");
+    }
+  </script>
   <body>
+    <header>
+      <div class="nav-bar">
+        <div class="nav-list">
+          <a class="nav-btn" href="./index.html">履歷</a>
+          <a
+            class="nav-btn fill"
+            style="background-color: #fff; color: #181818; font-weight: 900"
+            href="#"
+            >詳細介紹</a
+          >
+          <a class="nav-btn fill" href="./ portfolio.html">作品集</a>
+        </div>
+        <div class="menu-bar" onclick="openMenuBar()">
+          <div class="line line1"></div>
+          <div class="line line2"></div>
+          <div class="line line3"></div>
+        </div>
+      </div>
+    </header>
     <div class="resume">
       <div class="border"></div>
       <div class="header">
