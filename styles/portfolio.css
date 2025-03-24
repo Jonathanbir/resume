@@ -75,10 +75,12 @@ h1 {
   transition: all 0.1s 0s ease-out;
   cursor: pointer;
 }
+
 .btn:hover {
   cursor: pointer;
   background-color: black;
 }
+
 .no-touch .btn:hover {
   background: #00a2ad;
   box-shadow: 0px 8px 2px 0 rgba(0, 0, 0, 0.075);
@@ -94,6 +96,11 @@ h1 {
 }
 div.cards {
   text-align: center;
+  margin-bottom: 50px;
+
+  @media (max-width: 500px) {
+    margin-bottom: 7rem;
+  }
 }
 div.card {
   background: #fff;
@@ -117,15 +124,22 @@ div.card div.card-title {
   position: relative;
   z-index: 0;
 }
+
 div.card div.card-title a.toggle-info {
   border-radius: 32px;
   height: 32px;
   padding: 0;
   position: absolute;
   right: 15px;
-  top: 10px;
+  top: -14rem;
   width: 32px;
+  box-shadow: 0px 3px 20px #0000005c;
+
+  @media (max-width: 500px) {
+    top: -11rem;
+  }
 }
+
 div.card div.card-title a.toggle-info span {
   background: #ffffff;
   display: block;
@@ -226,6 +240,7 @@ div.card.show div.flap2 {
   flex-direction: column;
   max-width: 926px;
   min-width: 650px;
+  height: auto;
   border: 3px solid #c7b2ce;
   border-radius: 5px;
   background: linear-gradient(180deg, #181818, #1a1a1a);
@@ -257,8 +272,8 @@ div.card.show div.flap2 {
   pointer-events: none;
 
   @media (max-width: 500px) {
-    height: calc(100% - 10px);
-    width: calc(100% - 10px);
+    height: calc(100% - 6px);
+    width: calc(100% - 6px);
   }
 }
 
@@ -420,7 +435,13 @@ h3 {
   color: #040404;
 
   @media (max-width: 500px) {
-    transform: translateY(-2rem);
+    transform: translateY(0rem);
+  }
+}
+
+.workflow-title {
+  @media (max-width: 500px) {
+    transform: translateY(1rem);
   }
 }
 
@@ -455,75 +476,47 @@ h3 {
   }
 }
 
-.order-img {
+.img-common {
   width: 100%;
   height: 250px;
   background-size: cover;
   background-size: 100%;
   background-repeat: no-repeat;
+
+  @media (max-width: 500px) {
+    height: 200px;
+  }
+}
+
+.order-img {
   background-image: url("../images/orderspace.png");
 }
 
 .snack-img {
-  width: 100%;
-  height: 250px;
-  background-size: cover;
-  background-size: 100%;
-  background-repeat: no-repeat;
   background-image: url("../images/snack.png");
 }
 
 .comfy-img {
-  width: 100%;
-  height: 250px;
-  background-size: cover;
-  background-size: 100%;
-  background-repeat: no-repeat;
   background-image: url("../images/comfy.png");
 }
 
 .chocolate-img {
-  width: 100%;
-  height: 250px;
-  background-size: cover;
-  background-size: 100%;
-  background-repeat: no-repeat;
   background-image: url("../images/chocolate.png");
 }
 
 .lebledor-img {
-  width: 100%;
-  height: 250px;
-  background-size: cover;
-  background-size: 100%;
-  background-repeat: no-repeat;
   background-image: url("../images/lebledor.png");
 }
 
 .netflix-img {
-  width: 100%;
-  height: 250px;
-  background-size: cover;
-  background-size: 100%;
-  background-repeat: no-repeat;
   background-image: url("../images/netflix.png");
 }
 
 .adventure-img {
-  width: 100%;
-  height: 250px;
-  background-size: cover;
-  background-size: 100%;
-  background-repeat: no-repeat;
   background-image: url("../images/adventure.png");
 }
 
 .esomusic-img {
-  width: 100%;
-  height: 250px;
-  background-size: cover;
-  background-size: 100%;
-  background-repeat: no-repeat;
   background-image: url("../images/esomusic.png");
 }
 
@@ -538,111 +531,53 @@ h3 {
 }
 
 .todolist-img {
-  width: 100%;
-  height: 250px;
-  background-size: cover;
-  background-size: 100%;
-  background-repeat: no-repeat;
   background-image: url("../images/todolist.png");
 }
 
 .hib-img {
-  width: 100%;
-  height: 250px;
-  background-size: cover;
-  background-size: 100%;
-  background-repeat: no-repeat;
   background-image: url("../images/hib.png");
 }
 
 .in-img {
-  width: 100%;
-  height: 250px;
-  background-size: cover;
-  background-size: 100%;
-  background-repeat: no-repeat;
   background-image: url("../images/in-and-out.png");
 }
 
 .jew-img {
-  width: 100%;
-  height: 250px;
-  background-size: cover;
-  background-size: 100%;
-  background-repeat: no-repeat;
   background-image: url("../images/jew.png");
 }
 
 .kitchen-img {
-  width: 100%;
-  height: 250px;
-  background-size: cover;
-  background-size: 100%;
-  background-repeat: no-repeat;
   background-image: url("../images/kitchen.png");
 }
 
 .leonton-img {
-  width: 100%;
-  height: 250px;
-  background-size: cover;
-  background-size: 100%;
-  background-repeat: no-repeat;
   background-image: url("../images/leonton.png");
 }
 
 .workflow-img {
-  width: 100%;
-  height: 250px;
-  background-size: cover;
-  background-size: 100%;
-  background-repeat: no-repeat;
   background-image: url("../images/workflow.jpg");
 }
 
 .skypu3-3d_space-img {
-  width: 100%;
-  height: 250px;
-  background-size: cover;
-  background-size: 100%;
-  background-repeat: no-repeat;
   background-image: url("../images/skypu3-3d_space.png");
 }
 
 .mbp-img {
-  width: 100%;
-  height: 250px;
-  background-size: cover;
-  background-size: 100%;
-  background-repeat: no-repeat;
   background-image: url("../images/mbp.png");
 }
 
 .icare-img {
-  width: 100%;
-  height: 250px;
-  background-size: cover;
-  background-size: 100%;
-  background-repeat: no-repeat;
   background-image: url("../images/icare.png");
 }
 
 .mir-img {
-  width: 100%;
-  height: 250px;
-  background-size: cover;
   background-size: 80%;
-  background-repeat: no-repeat;
   background-position-x: 60%;
   background-image: url("../images/mir.png");
 }
 
 .mib-img {
-  width: 100%;
-  height: 250px;
-  background-size: cover;
   background-size: 60%;
-  background-repeat: no-repeat;
   background-position-x: center;
   background-image: url("../images/mib.png");
 }
