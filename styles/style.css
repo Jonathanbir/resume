@@ -6,11 +6,6 @@
   font-family: "Noto Sans TC", sans-serif;
 }
 
-body {
-  position: relative;
-  background: linear-gradient(135deg, rgb(87, 87, 88), rgb(2, 2, 2));
-}
-
 .background {
   position: fixed;
   top: 110px;
@@ -95,7 +90,7 @@ header nav ul li:hover > a {
 }
 
 main {
-  margin-top: 110px;
+  padding: 57px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
