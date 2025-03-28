@@ -51,6 +51,10 @@ $(document).ready(function () {
     window.open("https://dulcet-stroopwafel-8c19b9.netlify.app/");
   });
 
+  $(".denden").click(function (e) {
+  window.open("https://denden-inky.vercel.app/")
+  });
+
   $(".workflow").click(function (e) {
     window.open("https://workflow-demo-mu.vercel.app/");
   });
@@ -80,7 +84,7 @@ $(document).ready(function () {
 
   $(".mib").click(function (e) {
     window.open(
-      "http://www.onead.com.tw/wp-content/themes/gravity/ft-video/onead_micb.mp4"
+      "https://onead-smoky.vercel.app/"
     );
   });
 
