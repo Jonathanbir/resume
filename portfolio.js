@@ -22,6 +22,10 @@ $(document).ready(function () {
     window.open("https://jonathanbir.github.io/orderspace_demo/");
   });
 
+  $(".pokemon").click(function (e) {
+    window.open("https://merry-bublanina-9f3c2a.netlify.app/");
+  });
+
   $(".comfy").click(function (e) {
     window.open("https://testing-shop.netlify.app/");
   });
@@ -52,7 +56,7 @@ $(document).ready(function () {
   });
 
   $(".denden").click(function (e) {
-  window.open("https://denden-inky.vercel.app/")
+    window.open("https://denden-inky.vercel.app/");
   });
 
   $(".workflow").click(function (e) {
@@ -83,9 +87,7 @@ $(document).ready(function () {
   });
 
   $(".mib").click(function (e) {
-    window.open(
-      "https://onead-smoky.vercel.app/"
-    );
+    window.open("https://onead-smoky.vercel.app/");
   });
 
   //   $(".").click(function (e) {
