@@ -84,6 +84,11 @@ h4 {
   }
 }
 
+.focus {
+  font-weight: 900;
+  border-bottom: 1px solid #fff;
+}
+
 a {
   color: #8ac3ff;
   text-decoration: none;
