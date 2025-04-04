@@ -23,7 +23,7 @@ $(document).ready(function () {
   });
 
   $(".pokemon").click(function (e) {
-    window.open("https://merry-bublanina-9f3c2a.netlify.app/");
+    window.open("https://comfy-macaron-cca034.netlify.app/");
   });
 
   $(".comfy").click(function (e) {
