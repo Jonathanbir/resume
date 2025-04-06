@@ -87,6 +87,7 @@ h4 {
 .focus {
   font-weight: 900;
   border-bottom: 1px solid #fff;
+  color: rgb(135, 235, 237);
 }
 
 a {
@@ -288,7 +289,7 @@ hr {
 }
 
 .img-container .decoration:first-child::after {
-  content: "Programming";
+  content: "前端";
   background-image: none;
   font-family: "Smooch Sans", sans-serif;
   font-size: 20px;
@@ -297,7 +298,7 @@ hr {
 }
 
 .img-container .decoration:nth-child(2)::after {
-  content: "Design";
+  content: "網頁設計";
   font-family: "Smooch Sans", sans-serif;
   background-image: none;
   font-weight: 600;

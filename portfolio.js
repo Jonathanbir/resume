@@ -7,7 +7,7 @@ $(document).ready(function () {
   });
 
   $(".chocolate").click(function (e) {
-    window.open("https://stunning-sprite-4e12dc.netlify.app");
+    window.open("https://cheerful-medovik-339600.netlify.app/");
   });
 
   $(".lebledor").click(function (e) {
@@ -23,7 +23,11 @@ $(document).ready(function () {
   });
 
   $(".pokemon").click(function (e) {
-    window.open("https://comfy-macaron-cca034.netlify.app/");
+    window.open("https://charming-malasada-3d0776.netlify.app/");
+  });
+
+  $(".skateboard").click(function (e) {
+    window.open("https://elaborate-lebkuchen-e409e6.netlify.app/");
   });
 
   $(".comfy").click(function (e) {

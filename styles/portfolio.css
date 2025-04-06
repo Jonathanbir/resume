@@ -114,6 +114,7 @@ div.card {
   text-align: left;
   transition: all 0.3s 0s ease-in;
   width: 400px;
+  cursor: pointer;
   z-index: 1;
   animation: showup 2s ease-in-out;
 
@@ -519,6 +520,10 @@ h3 {
 
 .pokemon-img {
   background-image: url("../images/pokemon.png");
+}
+
+.skateboard-img {
+  background-image: url("../images/skateboard.png");
 }
 
 .snack-img {
